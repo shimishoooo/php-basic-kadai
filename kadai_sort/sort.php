@@ -16,7 +16,8 @@
             foreach ($array as $sort){
                 echo $sort;
                 echo "<br>";
-            }else {
+            }
+        }else {
             echo "降順にソートします。<br>";
 
             rsort($array);
