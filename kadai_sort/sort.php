@@ -12,20 +12,15 @@
             echo "昇順にソートします。<br>";
 
             sort($array);
-
-            foreach ($array as $sort){
-                echo $sort;
-                echo "<br>";
-            }
         }else {
             echo "降順にソートします。<br>";
 
             rsort($array);
+        }
 
-            foreach ($array as $sort){
-                echo $sort;
-                echo "<br>";
-            }
+        foreach ($array as $sort){
+            echo $sort;
+            echo "<br>";
         }
     }
 
